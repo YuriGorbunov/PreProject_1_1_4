@@ -63,6 +63,6 @@ public class User {
 
     @Override
     public String toString() {
-        return "\nПользователь со следующими данными был добавлен в БД: " + name + ", " + lastName + ", " + age;
+        return "\nПользователь " + id + " : " + name + ", " + lastName + ", " + age;
     }
 }
