@@ -9,7 +9,7 @@ import org.hibernate.service.ServiceRegistry;
 import java.util.Properties;
 
 public class Util {
-    private final static String URL = "jdbc:mysql://localhost:3306/db_users";
+    private final static String URL = "jdbc:mysql://localhost:3306/db_users_hibernate";
     private final static String USERNAME = "root";
     private final static String PASSWORD = "lovka4";
 

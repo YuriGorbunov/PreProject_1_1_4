@@ -7,16 +7,16 @@ import javax.persistence.*;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    @Column (name = "id")
+    @Column(name = "id")
     private Long id;
 
-    @Column (name = "name")
+    @Column(name = "name")
     private String name;
 
-    @Column (name = "lastName")
+    @Column(name = "lastName")
     private String lastName;
 
-    @Column (name = "age", length = 3)
+    @Column(name = "age", length = 3)
     private Byte age;
 
     public User() {
@@ -63,6 +63,6 @@ public class User {
 
     @Override
     public String toString() {
-        return "Пользователь со следующими данными был добавлен в БД: " + name + ", " + lastName + ", " + age;
+        return "\nПользователь со следующими данными был добавлен в БД: " + name + ", " + lastName + ", " + age;
     }
 }
